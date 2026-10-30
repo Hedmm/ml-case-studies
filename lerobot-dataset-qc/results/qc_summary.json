@@ -1,0 +1,59 @@
+{
+ "episodes": 158,
+ "frames": 78300,
+ "hours": 0.725,
+ "verdicts": {
+  "PASS": 149,
+  "FAIL": 7,
+  "WARN": 2
+ },
+ "trimmable_frames": 5698,
+ "trimmable_pct": 7.3,
+ "per_dataset": {
+  "svla_so100_pickplace": {
+   "episodes": 50,
+   "verdicts": {
+    "PASS": 49,
+    "WARN": 1
+   },
+   "reasons": {
+    "length outlier": 1
+   },
+   "median_seconds": 12.665,
+   "grasps_median": 1.0,
+   "trimmable_pct": 13.5
+  },
+  "svla_so100_sorting": {
+   "episodes": 52,
+   "verdicts": {
+    "PASS": 50,
+    "FAIL": 2
+   },
+   "reasons": {
+    "no grasp": 2,
+    "length outlier": 2,
+    "long pause": 1
+   },
+   "median_seconds": 23.115000000000002,
+   "grasps_median": 2.0,
+   "trimmable_pct": 4.0
+  },
+  "svla_so100_stacking": {
+   "episodes": 56,
+   "verdicts": {
+    "PASS": 50,
+    "FAIL": 5,
+    "WARN": 1
+   },
+   "reasons": {
+    "no grasp": 5,
+    "length outlier": 4,
+    "re-grasp": 1,
+    "long pause": 1
+   },
+   "median_seconds": 14.33,
+   "grasps_median": 1.0,
+   "trimmable_pct": 7.1
+  }
+ }
+}

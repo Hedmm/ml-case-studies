@@ -1,0 +1,10 @@
+base   acc 0.3633 CI [0.3461,0.3805] F1 0.3386 valid 0.8659 train 0.0s mem 5.75GB trainable 0
+lora   acc 0.9211 CI [0.9114,0.9305] F1 0.9207 valid 0.9994 train 1274.4s mem 10.64GB trainable 18,464,768
+qlora  acc 0.9146 CI [0.9049,0.9244] F1 0.9138 valid 1.0000 train 1830.4s mem 9.6GB trainable 18,464,768
+full   acc 0.8513 CI [0.8386,0.8636] F1 0.8513 valid 0.9987 train 728.5s mem 19.01GB trainable 1,543,714,304
+base vs lora: diff -0.5578 CI [-0.5763,-0.5396] p=0.00e+00
+base vs qlora: diff -0.5513 CI [-0.5701,-0.5328] p=0.00e+00
+base vs full: diff -0.4880 CI [-0.5071,-0.4692] p=0.00e+00
+lora vs qlora: diff +0.0065 CI [+0.0006,+0.0123] p=4.46e-02
+lora vs full: diff +0.0698 CI [+0.0597,+0.0805] p=8.30e-40
+qlora vs full: diff +0.0633 CI [+0.0526,+0.0744] p=1.50e-31

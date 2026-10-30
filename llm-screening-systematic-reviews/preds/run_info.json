@@ -1,0 +1,25 @@
+{
+ "Appenzeller-Herzog_2020": {
+  "records": 3453,
+  "seconds": 63.8,
+  "prompt_tokens": 1388289,
+  "tokens_per_s": 21760,
+  "peak_gpu_gb": 17.42
+ },
+ "Wolters_2018": {
+  "records": 5019,
+  "seconds": 132.6,
+  "prompt_tokens": 2598020,
+  "tokens_per_s": 19598,
+  "peak_gpu_gb": 17.42
+ },
+ "van_Dis_2020": {
+  "records": 10953,
+  "seconds": 292.9,
+  "prompt_tokens": 5477813,
+  "tokens_per_s": 18699,
+  "peak_gpu_gb": 17.42
+ },
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "gpu": "NVIDIA H100 PCIe"
+}

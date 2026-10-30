@@ -1,0 +1,1065 @@
+{
+ "svla_so100_pickplace": [
+  {
+   "episode": 0,
+   "frames": [
+    42,
+    440
+   ]
+  },
+  {
+   "episode": 1,
+   "frames": [
+    21,
+    436
+   ]
+  },
+  {
+   "episode": 2,
+   "frames": [
+    39,
+    376
+   ]
+  },
+  {
+   "episode": 3,
+   "frames": [
+    43,
+    406
+   ]
+  },
+  {
+   "episode": 4,
+   "frames": [
+    36,
+    383
+   ]
+  },
+  {
+   "episode": 5,
+   "frames": [
+    34,
+    339
+   ]
+  },
+  {
+   "episode": 6,
+   "frames": [
+    48,
+    347
+   ]
+  },
+  {
+   "episode": 7,
+   "frames": [
+    34,
+    334
+   ]
+  },
+  {
+   "episode": 8,
+   "frames": [
+    36,
+    368
+   ]
+  },
+  {
+   "episode": 9,
+   "frames": [
+    31,
+    373
+   ]
+  },
+  {
+   "episode": 10,
+   "frames": [
+    31,
+    364
+   ]
+  },
+  {
+   "episode": 11,
+   "frames": [
+    28,
+    361
+   ]
+  },
+  {
+   "episode": 12,
+   "frames": [
+    35,
+    369
+   ]
+  },
+  {
+   "episode": 13,
+   "frames": [
+    27,
+    344
+   ]
+  },
+  {
+   "episode": 14,
+   "frames": [
+    31,
+    375
+   ]
+  },
+  {
+   "episode": 15,
+   "frames": [
+    31,
+    378
+   ]
+  },
+  {
+   "episode": 16,
+   "frames": [
+    36,
+    365
+   ]
+  },
+  {
+   "episode": 17,
+   "frames": [
+    34,
+    396
+   ]
+  },
+  {
+   "episode": 18,
+   "frames": [
+    25,
+    379
+   ]
+  },
+  {
+   "episode": 19,
+   "frames": [
+    28,
+    353
+   ]
+  },
+  {
+   "episode": 20,
+   "frames": [
+    48,
+    351
+   ]
+  },
+  {
+   "episode": 21,
+   "frames": [
+    36,
+    347
+   ]
+  },
+  {
+   "episode": 22,
+   "frames": [
+    46,
+    347
+   ]
+  },
+  {
+   "episode": 23,
+   "frames": [
+    36,
+    375
+   ]
+  },
+  {
+   "episode": 24,
+   "frames": [
+    37,
+    351
+   ]
+  },
+  {
+   "episode": 25,
+   "frames": [
+    34,
+    399
+   ]
+  },
+  {
+   "episode": 26,
+   "frames": [
+    41,
+    351
+   ]
+  },
+  {
+   "episode": 27,
+   "frames": [
+    40,
+    326
+   ]
+  },
+  {
+   "episode": 28,
+   "frames": [
+    53,
+    365
+   ]
+  },
+  {
+   "episode": 29,
+   "frames": [
+    49,
+    374
+   ]
+  },
+  {
+   "episode": 30,
+   "frames": [
+    50,
+    415
+   ]
+  },
+  {
+   "episode": 31,
+   "frames": [
+    23,
+    575
+   ]
+  },
+  {
+   "episode": 32,
+   "frames": [
+    42,
+    395
+   ]
+  },
+  {
+   "episode": 33,
+   "frames": [
+    42,
+    412
+   ]
+  },
+  {
+   "episode": 34,
+   "frames": [
+    44,
+    373
+   ]
+  },
+  {
+   "episode": 35,
+   "frames": [
+    36,
+    380
+   ]
+  },
+  {
+   "episode": 36,
+   "frames": [
+    0,
+    413
+   ]
+  },
+  {
+   "episode": 37,
+   "frames": [
+    56,
+    370
+   ]
+  },
+  {
+   "episode": 38,
+   "frames": [
+    55,
+    387
+   ]
+  },
+  {
+   "episode": 39,
+   "frames": [
+    42,
+    337
+   ]
+  },
+  {
+   "episode": 40,
+   "frames": [
+    35,
+    448
+   ]
+  },
+  {
+   "episode": 41,
+   "frames": [
+    53,
+    475
+   ]
+  },
+  {
+   "episode": 42,
+   "frames": [
+    89,
+    403
+   ]
+  },
+  {
+   "episode": 43,
+   "frames": [
+    45,
+    393
+   ]
+  },
+  {
+   "episode": 44,
+   "frames": [
+    31,
+    346
+   ]
+  },
+  {
+   "episode": 45,
+   "frames": [
+    53,
+    340
+   ]
+  },
+  {
+   "episode": 46,
+   "frames": [
+    59,
+    334
+   ]
+  },
+  {
+   "episode": 47,
+   "frames": [
+    50,
+    395
+   ]
+  },
+  {
+   "episode": 48,
+   "frames": [
+    84,
+    353
+   ]
+  },
+  {
+   "episode": 49,
+   "frames": [
+    43,
+    387
+   ]
+  }
+ ],
+ "svla_so100_sorting": [
+  {
+   "episode": 0,
+   "frames": [
+    17,
+    954
+   ]
+  },
+  {
+   "episode": 1,
+   "frames": [
+    65,
+    783
+   ]
+  },
+  {
+   "episode": 2,
+   "frames": [
+    55,
+    766
+   ]
+  },
+  {
+   "episode": 3,
+   "frames": [
+    53,
+    733
+   ]
+  },
+  {
+   "episode": 4,
+   "frames": [
+    52,
+    706
+   ]
+  },
+  {
+   "episode": 5,
+   "frames": [
+    56,
+    765
+   ]
+  },
+  {
+   "episode": 6,
+   "frames": [
+    8,
+    747
+   ]
+  },
+  {
+   "episode": 7,
+   "frames": [
+    8,
+    774
+   ]
+  },
+  {
+   "episode": 9,
+   "frames": [
+    17,
+    638
+   ]
+  },
+  {
+   "episode": 10,
+   "frames": [
+    69,
+    783
+   ]
+  },
+  {
+   "episode": 11,
+   "frames": [
+    52,
+    824
+   ]
+  },
+  {
+   "episode": 12,
+   "frames": [
+    18,
+    681
+   ]
+  },
+  {
+   "episode": 13,
+   "frames": [
+    43,
+    721
+   ]
+  },
+  {
+   "episode": 14,
+   "frames": [
+    33,
+    702
+   ]
+  },
+  {
+   "episode": 15,
+   "frames": [
+    3,
+    785
+   ]
+  },
+  {
+   "episode": 16,
+   "frames": [
+    4,
+    734
+   ]
+  },
+  {
+   "episode": 17,
+   "frames": [
+    29,
+    681
+   ]
+  },
+  {
+   "episode": 18,
+   "frames": [
+    13,
+    711
+   ]
+  },
+  {
+   "episode": 19,
+   "frames": [
+    31,
+    753
+   ]
+  },
+  {
+   "episode": 20,
+   "frames": [
+    26,
+    750
+   ]
+  },
+  {
+   "episode": 21,
+   "frames": [
+    26,
+    852
+   ]
+  },
+  {
+   "episode": 22,
+   "frames": [
+    19,
+    744
+   ]
+  },
+  {
+   "episode": 24,
+   "frames": [
+    20,
+    687
+   ]
+  },
+  {
+   "episode": 25,
+   "frames": [
+    5,
+    725
+   ]
+  },
+  {
+   "episode": 26,
+   "frames": [
+    22,
+    696
+   ]
+  },
+  {
+   "episode": 27,
+   "frames": [
+    5,
+    676
+   ]
+  },
+  {
+   "episode": 28,
+   "frames": [
+    4,
+    711
+   ]
+  },
+  {
+   "episode": 29,
+   "frames": [
+    40,
+    757
+   ]
+  },
+  {
+   "episode": 30,
+   "frames": [
+    30,
+    782
+   ]
+  },
+  {
+   "episode": 31,
+   "frames": [
+    6,
+    670
+   ]
+  },
+  {
+   "episode": 32,
+   "frames": [
+    13,
+    668
+   ]
+  },
+  {
+   "episode": 33,
+   "frames": [
+    8,
+    630
+   ]
+  },
+  {
+   "episode": 34,
+   "frames": [
+    9,
+    536
+   ]
+  },
+  {
+   "episode": 35,
+   "frames": [
+    9,
+    589
+   ]
+  },
+  {
+   "episode": 36,
+   "frames": [
+    3,
+    610
+   ]
+  },
+  {
+   "episode": 37,
+   "frames": [
+    9,
+    740
+   ]
+  },
+  {
+   "episode": 38,
+   "frames": [
+    14,
+    641
+   ]
+  },
+  {
+   "episode": 39,
+   "frames": [
+    44,
+    639
+   ]
+  },
+  {
+   "episode": 40,
+   "frames": [
+    31,
+    606
+   ]
+  },
+  {
+   "episode": 41,
+   "frames": [
+    13,
+    611
+   ]
+  },
+  {
+   "episode": 42,
+   "frames": [
+    15,
+    698
+   ]
+  },
+  {
+   "episode": 43,
+   "frames": [
+    44,
+    626
+   ]
+  },
+  {
+   "episode": 44,
+   "frames": [
+    15,
+    685
+   ]
+  },
+  {
+   "episode": 45,
+   "frames": [
+    20,
+    672
+   ]
+  },
+  {
+   "episode": 46,
+   "frames": [
+    22,
+    681
+   ]
+  },
+  {
+   "episode": 47,
+   "frames": [
+    48,
+    633
+   ]
+  },
+  {
+   "episode": 48,
+   "frames": [
+    17,
+    608
+   ]
+  },
+  {
+   "episode": 49,
+   "frames": [
+    32,
+    671
+   ]
+  },
+  {
+   "episode": 50,
+   "frames": [
+    13,
+    658
+   ]
+  },
+  {
+   "episode": 51,
+   "frames": [
+    23,
+    633
+   ]
+  }
+ ],
+ "svla_so100_stacking": [
+  {
+   "episode": 0,
+   "frames": [
+    46,
+    440
+   ]
+  },
+  {
+   "episode": 1,
+   "frames": [
+    40,
+    416
+   ]
+  },
+  {
+   "episode": 2,
+   "frames": [
+    27,
+    430
+   ]
+  },
+  {
+   "episode": 3,
+   "frames": [
+    67,
+    368
+   ]
+  },
+  {
+   "episode": 4,
+   "frames": [
+    52,
+    333
+   ]
+  },
+  {
+   "episode": 5,
+   "frames": [
+    0,
+    357
+   ]
+  },
+  {
+   "episode": 6,
+   "frames": [
+    38,
+    387
+   ]
+  },
+  {
+   "episode": 7,
+   "frames": [
+    8,
+    421
+   ]
+  },
+  {
+   "episode": 8,
+   "frames": [
+    9,
+    524
+   ]
+  },
+  {
+   "episode": 9,
+   "frames": [
+    29,
+    414
+   ]
+  },
+  {
+   "episode": 10,
+   "frames": [
+    76,
+    480
+   ]
+  },
+  {
+   "episode": 11,
+   "frames": [
+    13,
+    462
+   ]
+  },
+  {
+   "episode": 12,
+   "frames": [
+    54,
+    459
+   ]
+  },
+  {
+   "episode": 13,
+   "frames": [
+    0,
+    416
+   ]
+  },
+  {
+   "episode": 14,
+   "frames": [
+    20,
+    432
+   ]
+  },
+  {
+   "episode": 15,
+   "frames": [
+    91,
+    502
+   ]
+  },
+  {
+   "episode": 16,
+   "frames": [
+    3,
+    476
+   ]
+  },
+  {
+   "episode": 17,
+   "frames": [
+    34,
+    485
+   ]
+  },
+  {
+   "episode": 18,
+   "frames": [
+    60,
+    420
+   ]
+  },
+  {
+   "episode": 19,
+   "frames": [
+    61,
+    437
+   ]
+  },
+  {
+   "episode": 21,
+   "frames": [
+    43,
+    566
+   ]
+  },
+  {
+   "episode": 22,
+   "frames": [
+    35,
+    466
+   ]
+  },
+  {
+   "episode": 23,
+   "frames": [
+    40,
+    430
+   ]
+  },
+  {
+   "episode": 24,
+   "frames": [
+    35,
+    519
+   ]
+  },
+  {
+   "episode": 25,
+   "frames": [
+    34,
+    507
+   ]
+  },
+  {
+   "episode": 26,
+   "frames": [
+    0,
+    528
+   ]
+  },
+  {
+   "episode": 27,
+   "frames": [
+    3,
+    473
+   ]
+  },
+  {
+   "episode": 28,
+   "frames": [
+    17,
+    456
+   ]
+  },
+  {
+   "episode": 29,
+   "frames": [
+    4,
+    422
+   ]
+  },
+  {
+   "episode": 30,
+   "frames": [
+    28,
+    470
+   ]
+  },
+  {
+   "episode": 31,
+   "frames": [
+    21,
+    382
+   ]
+  },
+  {
+   "episode": 32,
+   "frames": [
+    0,
+    390
+   ]
+  },
+  {
+   "episode": 33,
+   "frames": [
+    33,
+    390
+   ]
+  },
+  {
+   "episode": 34,
+   "frames": [
+    39,
+    390
+   ]
+  },
+  {
+   "episode": 35,
+   "frames": [
+    68,
+    422
+   ]
+  },
+  {
+   "episode": 36,
+   "frames": [
+    126,
+    514
+   ]
+  },
+  {
+   "episode": 40,
+   "frames": [
+    27,
+    421
+   ]
+  },
+  {
+   "episode": 41,
+   "frames": [
+    0,
+    501
+   ]
+  },
+  {
+   "episode": 42,
+   "frames": [
+    0,
+    426
+   ]
+  },
+  {
+   "episode": 43,
+   "frames": [
+    10,
+    430
+   ]
+  },
+  {
+   "episode": 44,
+   "frames": [
+    7,
+    383
+   ]
+  },
+  {
+   "episode": 45,
+   "frames": [
+    6,
+    347
+   ]
+  },
+  {
+   "episode": 46,
+   "frames": [
+    7,
+    350
+   ]
+  },
+  {
+   "episode": 47,
+   "frames": [
+    16,
+    450
+   ]
+  },
+  {
+   "episode": 48,
+   "frames": [
+    4,
+    450
+   ]
+  },
+  {
+   "episode": 49,
+   "frames": [
+    74,
+    519
+   ]
+  },
+  {
+   "episode": 50,
+   "frames": [
+    29,
+    432
+   ]
+  },
+  {
+   "episode": 51,
+   "frames": [
+    8,
+    344
+   ]
+  },
+  {
+   "episode": 52,
+   "frames": [
+    13,
+    376
+   ]
+  },
+  {
+   "episode": 53,
+   "frames": [
+    17,
+    414
+   ]
+  },
+  {
+   "episode": 54,
+   "frames": [
+    78,
+    441
+   ]
+  }
+ ]
+}

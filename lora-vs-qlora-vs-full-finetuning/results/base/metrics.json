@@ -1,0 +1,15 @@
+{
+ "arm": "base",
+ "model": "Qwen/Qwen2.5-1.5B-Instruct",
+ "seed": 42,
+ "n_test": 3080,
+ "accuracy": 0.3633116883116883,
+ "valid_label_rate": 0.865909090909091,
+ "total_params": 1543714304,
+ "trainable_params": 0,
+ "train_seconds": 0.0,
+ "eval_seconds": 26.9,
+ "peak_gpu_mem_gb": 5.75,
+ "gpu": "NVIDIA H100 PCIe",
+ "epochs": 0
+}

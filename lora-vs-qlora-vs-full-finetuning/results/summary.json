@@ -1,0 +1,160 @@
+{
+ "n_test": 3080,
+ "bootstrap_resamples": 10000,
+ "arms": {
+  "base": {
+   "arm": "base",
+   "model": "Qwen/Qwen2.5-1.5B-Instruct",
+   "seed": 42,
+   "n_test": 3080,
+   "accuracy": 0.3633116883116883,
+   "valid_label_rate": 0.865909090909091,
+   "total_params": 1543714304,
+   "trainable_params": 0,
+   "train_seconds": 0.0,
+   "eval_seconds": 26.9,
+   "peak_gpu_mem_gb": 5.75,
+   "gpu": "NVIDIA H100 PCIe",
+   "epochs": 0,
+   "accuracy_ci95": [
+    0.3461038961038961,
+    0.38051948051948054
+   ],
+   "macro_f1": 0.33859051629347453
+  },
+  "lora": {
+   "arm": "lora",
+   "model": "Qwen/Qwen2.5-1.5B-Instruct",
+   "seed": 42,
+   "n_test": 3080,
+   "accuracy": 0.9211038961038961,
+   "valid_label_rate": 0.9993506493506493,
+   "total_params": 1543714304,
+   "trainable_params": 18464768,
+   "train_seconds": 1274.4,
+   "eval_seconds": 59.8,
+   "peak_gpu_mem_gb": 10.64,
+   "gpu": "NVIDIA H100 PCIe",
+   "epochs": 2,
+   "accuracy_ci95": [
+    0.9113636363636364,
+    0.9305194805194805
+   ],
+   "macro_f1": 0.9206828185939692
+  },
+  "qlora": {
+   "arm": "qlora",
+   "model": "Qwen/Qwen2.5-1.5B-Instruct",
+   "seed": 42,
+   "n_test": 3080,
+   "accuracy": 0.9146103896103897,
+   "valid_label_rate": 1.0,
+   "total_params": 888616448,
+   "trainable_params": 18464768,
+   "train_seconds": 1830.4,
+   "eval_seconds": 79.4,
+   "peak_gpu_mem_gb": 9.6,
+   "gpu": "NVIDIA H100 PCIe",
+   "epochs": 2,
+   "accuracy_ci95": [
+    0.9048701298701298,
+    0.9243506493506494
+   ],
+   "macro_f1": 0.9137706051575554
+  },
+  "full": {
+   "arm": "full",
+   "model": "Qwen/Qwen2.5-1.5B-Instruct",
+   "seed": 42,
+   "n_test": 3080,
+   "accuracy": 0.8512987012987013,
+   "valid_label_rate": 0.9987012987012988,
+   "total_params": 1543714304,
+   "trainable_params": 1543714304,
+   "train_seconds": 728.5,
+   "eval_seconds": 30.5,
+   "peak_gpu_mem_gb": 19.01,
+   "gpu": "NVIDIA H100 PCIe",
+   "epochs": 2,
+   "accuracy_ci95": [
+    0.8386363636363636,
+    0.8636363636363636
+   ],
+   "macro_f1": 0.8513469978537621
+  }
+ },
+ "mcnemar": [
+  {
+   "a": "base",
+   "b": "lora",
+   "only_a_correct": 26,
+   "only_b_correct": 1744,
+   "p_value": 0.0,
+   "acc_diff": -0.5577922077922077,
+   "diff_ci95": [
+    -0.5763068181818182,
+    -0.5396103896103897
+   ]
+  },
+  {
+   "a": "base",
+   "b": "qlora",
+   "only_a_correct": 31,
+   "only_b_correct": 1729,
+   "p_value": 0.0,
+   "acc_diff": -0.5512987012987014,
+   "diff_ci95": [
+    -0.57012987012987,
+    -0.5327922077922078
+   ]
+  },
+  {
+   "a": "base",
+   "b": "full",
+   "only_a_correct": 60,
+   "only_b_correct": 1563,
+   "p_value": 0.0,
+   "acc_diff": -0.487987012987013,
+   "diff_ci95": [
+    -0.5071428571428571,
+    -0.46915584415584416
+   ]
+  },
+  {
+   "a": "lora",
+   "b": "qlora",
+   "only_a_correct": 55,
+   "only_b_correct": 35,
+   "p_value": 0.04459752462791592,
+   "acc_diff": 0.00649350649350644,
+   "diff_ci95": [
+    0.0006493506493506773,
+    0.012337662337662314
+   ]
+  },
+  {
+   "a": "lora",
+   "b": "full",
+   "only_a_correct": 254,
+   "only_b_correct": 39,
+   "p_value": 8.304117721257823e-40,
+   "acc_diff": 0.06980519480519476,
+   "diff_ci95": [
+    0.05974025974025976,
+    0.08051948051948044
+   ]
+  },
+  {
+   "a": "qlora",
+   "b": "full",
+   "only_a_correct": 247,
+   "only_b_correct": 52,
+   "p_value": 1.4983019166940391e-31,
+   "acc_diff": 0.06331168831168832,
+   "diff_ci95": [
+    0.05259740259740264,
+    0.07435064935064928
+   ]
+  }
+ ]
+}
