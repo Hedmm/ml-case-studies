@@ -89,6 +89,7 @@ def main():
     ap.add_argument("--epochs", type=float, default=2)
     ap.add_argument("--bs", type=int, default=8)
     ap.add_argument("--accum", type=int, default=4)
+    ap.add_argument("--save-adapter", default="", help="lora/qlora only: also save the trained adapter and tokenizer here")
     a = ap.parse_args()
 
     random.seed(SEED)
@@ -173,6 +174,11 @@ def main():
             model.gradient_checkpointing_disable()
         with open(os.path.join(out_dir, "train_log.jsonl"), "w") as f:
             f.writelines(json.dumps(r) + "\n" for r in log)
+        if a.save_adapter and a.arm in ("lora", "qlora"):
+            model.save_pretrained(a.save_adapter)
+            tok.save_pretrained(a.save_adapter)
+            with open(os.path.join(a.save_adapter, "labels.json"), "w") as f:
+                json.dump(labels, f, indent=1)
 
     preds, eval_secs = evaluate(model, tok, labels, test)
     with open(os.path.join(out_dir, "preds.jsonl"), "w") as f:

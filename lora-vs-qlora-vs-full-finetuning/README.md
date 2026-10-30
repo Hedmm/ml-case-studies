@@ -46,9 +46,11 @@ The base model also often answers with something that is not a label: only 86.6%
 - QLoRA cost 0.6 points, which is small but statistically significant here. It saved 1 GB of peak memory and took 1.4× longer to train. At 1.5 B parameters the memory saving is small; it grows with model size.
 - Full fine-tuning was run with one common learning rate (1e-5). A tuned schedule might close part of the gap. This experiment compares the methods at fixed, typical settings; it does not tune each one to its best.
 
+The trained LoRA adapter is published on Hugging Face, with a model card and usage code: [Hedmm/qwen2.5-1.5b-instruct-banking77-lora](https://huggingface.co/Hedmm/qwen2.5-1.5b-instruct-banking77-lora). It was retrained with the same script and seed and reached 92.1% again.
+
 ## Files
 
-- `run_arm.py`: trains and evaluates one arm (`--arm base|lora|qlora|full`).
+- `run_arm.py`: trains and evaluates one arm (`--arm base|lora|qlora|full`); `--save-adapter DIR` also saves the LoRA adapter.
 - `analyze.py`: computes the confidence intervals and McNemar tests, and writes `results/summary.json`.
 - `results/<arm>/`:
   - `metrics.json`;
