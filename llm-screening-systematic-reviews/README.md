@@ -28,6 +28,8 @@ All 19,425 records took 8.2 minutes on one H100 (19–22k prompt tokens per seco
 
 ![Recall curves](figures/exp5_recall_curves.png)
 
+The method is now packaged as an open-source tool, [llm-literature-screener](https://github.com/Hedmm/llm-literature-screener). Rerun with the same model, it reproduces these numbers, including the same five missed studies. Explore its scores interactively in the [live demo](https://huggingface.co/spaces/Hedmm/llm-literature-screener).
+
 ## Limits
 
 - **Low precision (1–2%).** On the test reviews the model flags about a third of the records, and people still screen those. It replaces reading the rest, not the human decision.
